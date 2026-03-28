@@ -1,0 +1,424 @@
+{
+  "shresta": {
+    "share": 269.61,
+    "expenses": {
+      "garlic naan": 76.0000,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "shipra": {
+    "share": 302.38,
+    "expenses": {
+      "garlic naan": 76.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "priya": {
+    "share": 302.38,
+    "expenses": {
+      "garlic naan": 76.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "adarsh": {
+    "share": 302.38,
+    "expenses": {
+      "garlic naan": 76.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "ishan": {
+    "share": 302.38,
+    "expenses": {
+      "garlic naan": 76.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "sai": {
+    "share": 359.38,
+    "expenses": {
+      "garlic naan": 76.0000,
+      "butter naan": 57.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "arjun": {
+    "share": 301.38,
+    "expenses": {
+      "garlic roti": 75.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "anirudh": {
+    "share": 301.38,
+    "expenses": {
+      "garlic roti": 75.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "arpita": {
+    "share": 187.81,
+    "expenses": {
+      "butter naan": 57.0000,
+      "kadai paneer": 27.7500,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "anupama": {
+    "share": 187.81,
+    "expenses": {
+      "butter naan": 57.0000,
+      "kadai paneer": 27.7500,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "krishnashree": {
+    "share": 283.38,
+    "expenses": {
+      "butter naan": 57.0000,
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "hrishikesh": {
+    "share": 226.38,
+    "expenses": {
+      "mushroom masala curry": 32.7778,
+      "kadai paneer": 27.7500,
+      "andhra veg biryani": 62.8000,
+      "veg manchuria dry": 41.3333,
+      "chilly baby corn": 52.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "krishna": {
+    "share": 360.89,
+    "expenses": {
+      "lemon coriander chicken": 66.6000,
+      "spicy fried chicken": 70.4000,
+      "chicken mughlai biryani": 214.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "prateek": {
+    "share": 273.39,
+    "expenses": {
+      "lemon coriander chicken": 66.6000,
+      "spicy fried chicken": 70.4000,
+      "rayalaseema chicken biryani": 127.0000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "vinay": {
+    "share": 273.39,
+    "expenses": {
+      "lemon coriander chicken": 66.6000,
+      "spicy fried chicken": 70.4000,
+      "rayalaseema chicken biryani": 127.0000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "kalyani": {
+    "share": 360.89,
+    "expenses": {
+      "lemon coriander chicken": 66.6000,
+      "spicy fried chicken": 70.4000,
+      "chicken mughlai biryani": 214.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "rachit": {
+    "share": 273.39,
+    "expenses": {
+      "lemon coriander chicken": 66.6000,
+      "spicy fried chicken": 70.4000,
+      "rayalaseema chicken biryani": 127.0000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "sanjana": {
+    "share": 312.22,
+    "expenses": {
+      "chicken lollypops": 117.3333,
+      "chicken tikka biryani": 185.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "yash": {
+    "share": 293.22,
+    "expenses": {
+      "chicken lollypops": 117.3333,
+      "chicken dum biryani": 166.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "lahari": {
+    "share": 312.22,
+    "expenses": {
+      "chicken lollypops": 117.3333,
+      "chicken tikka biryani": 185.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "haneena": {
+    "share": 190.39,
+    "expenses": {
+      "chicken dum biryani mini": 82.6667,
+      "schezwan chicken fried rice": 98.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "tabassum": {
+    "share": 190.39,
+    "expenses": {
+      "chicken dum biryani mini": 82.6667,
+      "schezwan chicken fried rice": 98.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "nandana": {
+    "share": 190.39,
+    "expenses": {
+      "chicken dum biryani mini": 82.6667,
+      "schezwan chicken fried rice": 98.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "siddhartha": {
+    "share": 310.89,
+    "expenses": {
+      "dragon chicken": 111.0000,
+      "rayalaseema chicken biryani": 190.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "koushik": {
+    "share": 286.89,
+    "expenses": {
+      "dragon chicken": 111.0000,
+      "chicken dum biryani": 166.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "zubair": {
+    "share": 310.89,
+    "expenses": {
+      "dragon chicken": 111.0000,
+      "rayalaseema chicken biryani": 190.5000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "bindu": {
+    "share": 234.72,
+    "expenses": {
+      "chicken dum biryani": 111.0000,
+      "chicken fry piece biryani": 114.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "shivam": {
+    "share": 234.72,
+    "expenses": {
+      "chicken dum biryani": 111.0000,
+      "chicken fry piece biryani": 114.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "niveta": {
+    "share": 234.72,
+    "expenses": {
+      "chicken dum biryani": 111.0000,
+      "chicken fry piece biryani": 114.3333,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "ritushree": {
+    "share": 307.39,
+    "expenses": {
+      "spicy fried chicken": 117.3333,
+      "chicken tikka masala": 111.0000,
+      "garlic naan": 50.6667,
+      "butter naan": 19.0000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "saleha": {
+    "share": 307.39,
+    "expenses": {
+      "spicy fried chicken": 117.3333,
+      "chicken tikka masala": 111.0000,
+      "garlic naan": 50.6667,
+      "butter naan": 19.0000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "riona": {
+    "share": 307.39,
+    "expenses": {
+      "spicy fried chicken": 117.3333,
+      "chicken tikka masala": 111.0000,
+      "garlic naan": 50.6667,
+      "butter naan": 19.0000,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "kishan": {
+    "share": 340.14,
+    "expenses": {
+      "rayalaseema chicken biryani": 95.2500,
+      "green mirchi chicken biryani": 95.2500,
+      "butter naan": 57.0000,
+      "chicken kohlapuri": 83.2500,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "priyanshu": {
+    "share": 340.14,
+    "expenses": {
+      "rayalaseema chicken biryani": 95.2500,
+      "green mirchi chicken biryani": 95.2500,
+      "butter naan": 57.0000,
+      "chicken kohlapuri": 83.2500,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "neha": {
+    "share": 340.14,
+    "expenses": {
+      "rayalaseema chicken biryani": 95.2500,
+      "green mirchi chicken biryani": 95.2500,
+      "butter naan": 57.0000,
+      "chicken kohlapuri": 83.2500,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  },
+  "sudheshna": {
+    "share": 340.14,
+    "expenses": {
+      "rayalaseema chicken biryani": 95.2500,
+      "green mirchi chicken biryani": 95.2500,
+      "butter naan": 57.0000,
+      "chicken kohlapuri": 83.2500,
+      "water_bottle": 10.8333,
+      "discount": -18.5556,
+      "gst": 17.1111
+    }
+  }
+}

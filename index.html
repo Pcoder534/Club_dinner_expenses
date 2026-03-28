@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dinner Expenses</title>
+
+<style>
+
+body{
+margin:0;
+font-family:system-ui;
+background:#121212;
+color:#ddd;
+}
+
+header{
+text-align:center;
+padding:20px;
+font-size:22px;
+font-weight:600;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:15px;
+}
+
+/* SEARCH */
+.search{
+margin-bottom:15px;
+}
+
+.search input{
+width:97%;
+padding:12px;
+border:none;
+border-radius:8px;
+background:#1e1e1e;
+color:#ddd;
+font-size:16px;
+outline:none;
+}
+
+/* GRID */
+.member-grid{
+display:grid;
+grid-template-columns:1fr;
+gap:10px;
+}
+
+@media(min-width:600px){
+.member-grid{ grid-template-columns:repeat(2,1fr); }
+}
+@media(min-width:900px){
+.member-grid{ grid-template-columns:repeat(3,1fr); }
+}
+@media(min-width:1200px){
+.member-grid{ grid-template-columns:repeat(4,1fr); }
+}
+
+.member{
+background:#1e1e1e;
+padding:16px;
+border-radius:10px;
+cursor:pointer;
+text-align:center;
+font-size:18px;
+}
+
+.member:hover{ background:#2a2a2a; }
+
+.card{
+background:#1e1e1e;
+padding:20px;
+border-radius:12px;
+}
+
+.section{ margin-top:20px; }
+
+.item{
+display:flex;
+justify-content:space-between;
+padding:6px 0;
+border-bottom:1px solid #333;
+}
+
+.back{
+margin-bottom:15px;
+cursor:pointer;
+color:#aaa;
+}
+
+button{
+margin-top:20px;
+padding:12px;
+width:100%;
+border:none;
+border-radius:8px;
+background:#3b82f6;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2563eb;
+}
+
+.qr{
+text-align:center;
+}
+
+.qr img{
+max-width:250px;
+width:100%;
+}
+
+a{
+color:#60a5fa;
+word-break:break-all;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>Dinner Expenses</header>
+
+<div class="container" id="app"></div>
+
+<script>
+
+let members={}
+let links={}
+let filteredNames=[]
+
+function cap(name){
+return name.charAt(0).toUpperCase()+name.slice(1)
+}
+
+function formatItem(name){
+return name.replaceAll("_"," ")
+}
+
+function round(val){
+return parseFloat(val).toFixed(2)
+}
+
+// ---------- LOAD ----------
+async function loadData(){
+
+// expenses
+const exp = await fetch("expenses.json")
+members = await exp.json()
+
+filteredNames = Object.keys(members)
+
+// upi links
+const upi = await fetch("upi_links.csv")
+const upiText = await upi.text()
+
+upiText.split("\n").forEach(line=>{
+if(!line) return
+const parts=line.split(",")
+const name=parts[0]
+const link=parts[1].replaceAll('"',"")
+links[name]=link
+})
+
+showMembers()
+}
+
+// ---------- HOME ----------
+function showMembers(){
+
+const app=document.getElementById("app")
+
+app.innerHTML=`
+<div class="search">
+<input id="searchBox" type="text" placeholder="Search member...">
+</div>
+
+<div class="member-grid" id="memberGrid"></div>
+`
+
+// attach listener ONCE
+document.getElementById("searchBox").addEventListener("input", function(){
+filterNames(this.value)
+})
+
+// initial render
+renderMemberList(filteredNames)
+}
+
+// ---------- RENDER LIST ----------
+function renderMemberList(list){
+
+const grid=document.getElementById("memberGrid")
+
+let html=""
+
+list.forEach(name=>{
+html+=`
+<div class="member" onclick="showMember('${name}')">
+${cap(name)}
+</div>`
+})
+
+grid.innerHTML = html
+}
+
+// ---------- FILTER ----------
+function filterNames(query){
+
+query = query.toLowerCase()
+
+filteredNames = Object.keys(members).filter(name =>
+name.includes(query)
+)
+
+renderMemberList(filteredNames)
+}
+
+// ---------- MEMBER ----------
+function showMember(name){
+
+const data = members[name]
+
+let html=`
+<div class="card">
+
+<div class="back" onclick="showMembers()">← back</div>
+
+<h2>${cap(name)}</h2>
+
+<div class="section">
+<b>Total Share:</b> ₹${round(data.share)}
+</div>
+
+<div class="section">
+<h3>Expenses</h3>
+`
+
+for(const item in data.expenses){
+html+=`
+<div class="item">
+<span>${formatItem(item)}</span>
+<span>₹${round(data.expenses[item])}</span>
+</div>`
+}
+
+html+=`</div>`
+
+// pay button
+if(links[name]){
+html+=`
+<button onclick="showPay('${name}')">Pay Now</button>
+`
+}
+
+html+=`</div>`
+
+document.getElementById("app").innerHTML=html
+}
+
+// ---------- PAYMENT ----------
+function showPay(name){
+
+const link=links[name]
+
+const html=`
+<div class="card">
+
+<div class="back" onclick="showMember('${name}')">← back</div>
+
+<h2>Pay Now</h2>
+
+<div class="qr">
+<img src="qrs/${name}.png">
+</div>
+
+<p>Scan QR or click link</p>
+
+<a href="${link}">${link}</a>
+
+
+</div>
+`
+
+document.getElementById("app").innerHTML=html
+}
+
+// ---------- START ----------
+loadData()
+
+</script>
+
+</body>
+</html>
