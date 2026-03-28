@@ -68,11 +68,10 @@
       "gst": 17.1111
     }
   },
-  "sai": {
-    "share": 359.38,
+  "hrishikesh": {
+    "share": 302.38,
     "expenses": {
       "garlic naan": 76.0000,
-      "butter naan": 57.0000,
       "mushroom masala curry": 32.7778,
       "kadai paneer": 27.7500,
       "andhra veg biryani": 62.8000,
@@ -135,7 +134,7 @@
       "gst": 17.1111
     }
   },
-  "krishnashree": {
+  "sai": {
     "share": 283.38,
     "expenses": {
       "butter naan": 57.0000,
@@ -149,9 +148,10 @@
       "gst": 17.1111
     }
   },
-  "hrishikesh": {
-    "share": 226.38,
+  "krishnashree": {
+    "share": 283.38,
     "expenses": {
+      "butter naan": 57.0000,
       "mushroom masala curry": 32.7778,
       "kadai paneer": 27.7500,
       "andhra veg biryani": 62.8000,
